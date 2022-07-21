@@ -1,0 +1,29 @@
+// My algorithm file for the rock paper scissors game.
+
+
+Organization of how the game will be:
+1. Window to run time countdown for the game:
+-Window to display: time to play the RPC game against the computer.
+-The game stats in T minus (here the countdown begins in 5 seconds);
+
+
+2. Window with the main game.
+-Top header to display the number of rounds the game is playing : eg Round X
+- Main section to display the game : Human vs computer.
+-A section to display what the human player has selected eg Human has selected Rock and  Computer has selected paper 
+- A section to display output of the selection: example Its a tie or Human Player Wins! Rock beats paper
+
+
+3. Window displaying the winner
+-Display the score of the round: Human : 3     Computer: 4
+- Display the winner of the round: The Winner of this round is the Computer Player
+- Button to prompt the user to play the game again to return to the window with the main game.
+
+
+
+// My pseudocode
+
+1. Display to run a countdown before the game begins.
+
+
+
