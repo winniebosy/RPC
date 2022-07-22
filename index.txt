@@ -5,6 +5,9 @@ Organization of how the game will be:
 1. Window to run time countdown for the game:
 -Window to display: time to play the RPC game against the computer.
 -The game stats in T minus (here the countdown begins in 5 seconds);
+1. Display to run a countdown before the game begins.
+-function to display count down
+2.Blur the background of the window.
 
 
 2. Window with the main game.
@@ -12,18 +15,20 @@ Organization of how the game will be:
 - Main section to display the game : Human vs computer.
 -A section to display what the human player has selected eg Human has selected Rock and  Computer has selected paper 
 - A section to display output of the selection: example Its a tie or Human Player Wins! Rock beats paper
-
+1. Window is unblurred and enters the rpc game
 
 3. Window displaying the winner
 -Display the score of the round: Human : 3     Computer: 4
 - Display the winner of the round: The Winner of this round is the Computer Player
 - Button to prompt the user to play the game again to return to the window with the main game.
+display the results
+button to ask human opponent to play again. If yes in goes to the main page game. if no it closes the window and displays Thanks.
 
 
 
-// My pseudocode
 
-1. Display to run a countdown before the game begins.
+
+
 
 
 
