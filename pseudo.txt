@@ -1,0 +1,2 @@
+//Pseudo algorithm for the game
+

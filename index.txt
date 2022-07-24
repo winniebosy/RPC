@@ -23,8 +23,14 @@ Organization of how the game will be:
 - Button to prompt the user to play the game again to return to the window with the main game.
 display the results
 button to ask human opponent to play again. If yes in goes to the main page game. if no it closes the window and displays Thanks.
+https://rlmoser99.github.io/rock-paper-scissors/
 
 
+
+
+
+
+For keeping up scores, i was able to initialize each players scores to 0 and increment at every stage of their victory.
 
 
 
