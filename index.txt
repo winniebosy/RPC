@@ -34,6 +34,10 @@ For keeping up scores, i was able to initialize each players scores to 0 and inc
 
 
 
+For positioning items at the bottom of the page, use position absolute and bottom (they go hand in hand) to move elements.
+
+
+
 
 
 
