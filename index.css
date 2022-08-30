@@ -15,3 +15,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
 }
+
+.content-loading {
+    border: 2px solid red;
+}

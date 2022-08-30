@@ -1,5 +1,13 @@
 //activities before rpc page loads
 //we create a function until the body is ready
+function onLoad(callback) {
+    let intervalId = window.setInterval(function() {
+        if (document.getElementsByTagName('body')[0] !== undefined) {
+            window.clearInterval(intervalId);
+            callback.call(this)
+        }
+    }, 1000)
+}
 
 
 
