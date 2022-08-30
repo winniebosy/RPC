@@ -1,0 +1,17 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#page-loading {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background-color: #0e7807ff;
+    background-image: url("Img/animation_300_l7fstt6x.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+}

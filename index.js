@@ -1,3 +1,15 @@
+//activities before rpc page loads
+//we create a function until the body is ready
+
+
+
+
+
+
+
+
+
+
 //get computer choice randomly
 
 function getComputerChoice() {
@@ -81,7 +93,7 @@ function playRound(playerSelection, computerSelection) {
 
 }
 
-let round = 0;
+/* let round = 0;
 
 function playGame() {
 
@@ -99,7 +111,7 @@ function playGame() {
 
 }
 
-console.log(playGame())
+console.log(playGame()) */
 
 
 //Helper function. Assessing the winner or looser of the game after every play round.
