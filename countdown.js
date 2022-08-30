@@ -6,7 +6,7 @@ function onLoad(callback) {
             window.clearInterval(intervalId);
             callback.call(this)
         }
-    }, 2000)
+    }, 7000)
 }
 
 let countDown = 3;
@@ -15,24 +15,29 @@ function setVisible(selector, visible) {
     document.querySelector('#page-loading').style.display = visible ? 'block' : 'none';
 }
 
-//countdown for the timer
-function countdownTimer() {
-
-    let timeId = document.querySelector('#seconds');
-    let time = timeId.textContent;
-    countDown--;
-    if (countDown > 0) {
-        setTimeout(countdownTimer, 1000)
-
-    }
-};
-
-setTimeout(countdownTimer, 1000)
-
-
-
-
+//homepage is set visible
 onLoad(function() {
-
     setVisible('#loading', false);
 });
+
+
+//countdown for the timer
+function countdownTimer() {
+    let timeLeft = 5;
+    let count = document.getElementById("seconds");
+
+    let playTimer = setInterval(function() {
+        if (timeLeft <= 0) {
+            clearInterval(playTimer);
+            count.textContent = "GO!"
+        } else {
+            count.textContent = timeLeft;
+        }
+
+        timeLeft--
+    }, 1000)
+
+}
+
+
+countdownTimer();
