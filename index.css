@@ -34,3 +34,29 @@ body {
 
 /* before accessing home page ends here
  */
+
+
+/* hidding elements visually */
+
+.hide-element {
+    border: 0;
+    clip: rect(1px 1px 1px 1px);
+    /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+
+/* hiding elemnts visually ends here */
+
+.menu-buttons {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
