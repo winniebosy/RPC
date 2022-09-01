@@ -10,22 +10,44 @@
 </head>
 
 <body>
-
+    <!-- header section -->
     <header>
         <h1> RPC Game </h1>
         <p>Choose your weapon:</p>
-
     </header>
 
+    <!-- main section -->
+    <main>
+        <ol>
+            <li>
+                <button>  
+                    <img src ="Img/rock.svg" role ="img" alt ="Rock" width="120px" height="120px">
+                </button>
+            </li>
+            <li>
+                <button>  
+                    <img src ="Img/Paper.svg" role ="img" alt="Paper" width="120px" height="120px">
+                </button>
+            </li>
+            <li>
+                <button>
+                    <img src ="Img/Scissors.svg" role ="img" alt="Scissors" width="120px" height="120px">
+                </button>
+            </li>
+        </ol>
 
+    </main>
+    <!-- footer section -->
 
+    <footer>
 
+    </footer>
 
-
-
+    <!-- dispalys before page loads -->
     <div id="page-loading">
         <p class="content-loading"> The game will begin in T-minus:<span id="seconds">5</span></p>
     </div>
+    <!-- scripts -->
     <script src="countdown.js"></script>
     <script src="index.js"></script>
 </body>

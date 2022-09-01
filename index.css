@@ -2,6 +2,9 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
+
+/* before accessing the home papge */
+
 #page-loading {
     display: block;
     position: absolute;
@@ -17,7 +20,6 @@ body {
 }
 
 .content-loading {
-    border: 2px solid red;
     bottom: 1rem;
     position: absolute;
     padding: 2rem;
@@ -28,3 +30,7 @@ body {
     font-size: 2.5em;
     font-weight: bold;
 }
+
+
+/* before accessing home page ends here
+ */
