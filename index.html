@@ -14,23 +14,24 @@
     <header>
         <h1> The RPC Game </h1>
         <p>Choose your weapon:</p>
+        <p class="game-round"></p>
     </header>
 
     <!-- main section -->
     <main>
         <ol class="menu-buttons">
             <li class="list-button">
-                <button id="button-rock" value="rock">  
+                <button id="button-rock" class="button" value="rock">  
                     <img src ="Img/rock.svg" role ="img" alt ="Rock"  width="120px" height="120px">
                 </button>
             </li>
             <li class="list-button">
-                <button id="button-paper" value="paper">  
+                <button id="button-paper" class="button" value="paper">  
                     <img src ="Img/Paper.svg" role ="img" alt="Paper"  width="120px" height="120px">
                 </button>
             </li>
             <li class="list-button">
-                <button id="button-scissors" value="scissors">
+                <button id="button-scissors" class="button" value="scissors">
                     <img src ="Img/Scissors.svg" role ="img" alt="Scissors"    width="120px" height="120px">
                 </button>
             </li>
@@ -44,11 +45,11 @@
         <div class="score-output">
             <p class="score-output-human"></p>
             <p class="score-output-computer"></p>
-            <p class="score-overall"></p>
+            <p class="score-overall-human"></p>
+            <p class="score-overall-computer"></p>
             <p class="score-winner"></p>
-
-
         </div>
+
 
     </main>
     <!-- footer section -->
@@ -56,6 +57,9 @@
     <footer>
 
     </footer>
+
+
+
 
     <!-- dispalys before page loads -->
     <div id="page-loading">

@@ -60,3 +60,30 @@ body {
     justify-content: space-around;
     align-items: center;
 }
+
+button[data-state="active"] {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    display: block;
+}
+
+#play-btn {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7rem;
+    padding: 1rem 4rem;
+    font-size: larger;
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+
+/* button[data-state="inactive"] {
+    display: none;
+} */
