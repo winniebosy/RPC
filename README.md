@@ -4,3 +4,4 @@ A simple rock, paper and scissors game
  - HTML
  - CSS
  - Vanilla Js
+ ## Live Website : [Rock,Paper, Scissors](https://winniebosy.github.io/RPC/)
