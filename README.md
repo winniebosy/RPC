@@ -1,4 +1,4 @@
-# RPC
+# RPC Odin Project
 A simple rock, paper and scissors game
 ## Programe made with:
  - HTML
